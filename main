@@ -1,3 +1,5 @@
+/*****/***********/*1*/*//////////********************//////*
+
 import java.util.Scanner;
  
 public class App {
@@ -11,3 +13,78 @@ public class App {
         scanner.close();
     }
 }
+
+
+///////////////***************//////// 2 ////**************/////////////////**********
+
+    
+import java.util.Scanner;
+import java.util.Arrays;
+ 
+public class App {
+   
+    public static void main(String[] args) {
+
+        Scanner  scanner = new Scanner(System.in);
+		System.out.print("Inpunt numbers:");
+        int value = scanner.nextInt();
+        int mirror = 0;
+        while (value != 0) {
+            mirror = mirror * 10 + (value % 10);
+            value = value / 10;
+        }
+        System.out.print(mirror);
+       
+    
+    }
+}
+
+
+***********/////////////**********/3/*/*/*////////////***************
+
+ 
+public class App {
+   
+    public static void main(String[] args) {
+
+       int [] numberArray ={1,2,3,4,5,6,7,8,9};
+	   for  (int i:numberArray ){
+		   
+	
+		      System.out.print(i);
+			   System.out.println(i);
+	   
+   }
+	 
+}
+}
+
+
+/////////***************//////*******   4  *///////////******************/////
+
+import java.util.Scanner;
+import java.util.Arrays;
+ 
+public class App {
+   
+    public static void main(String[] args) {
+		int com;
+		int sum;
+	
+        Scanner  scanner = new Scanner(System.in);
+		System.out.print("Inpunt number X: ");
+        int num1 = scanner.nextInt();
+		System.out.print("Inpunt number Y: ");
+        int num2 = scanner.nextInt();
+		
+		sum = num1 + num2;
+		com = num1*num2;
+		
+		System.out.print(" Sum X and Y="+sum);
+		System.out.print("\n Com X and Y= "+com);
+       
+        
+    
+    }
+}
+
